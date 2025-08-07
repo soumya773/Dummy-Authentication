@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: black;
+  color: white;
+}
+
+/* Styling for Signup */
+.form-container {
+  padding: 40px;
+  max-width: 600px;
+  margin: auto;
+}
+input {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  background: black;
+  border: none;
+  border-bottom: 1px solid white;
+  color: white;
+  padding: 10px 0;
+}
+button {
+  padding: 5px 15px;
+  margin-top: 10px;
+}
+.success {
+  color: green;
+}
+.error {
+  color: red;
+}
+
+/* Styling for Profile */
+.profile-container {
+  padding: 40px;
+}
+
+/* src/components/Header.css */
+.header {
+  display: flex;
+  justify-content: space-between;
+  background: #222;
+  padding: 10px;
+  border-bottom: 1px solid white;
+}
+.header a {
+  margin-left: 20px;
+  color: white;
+  text-decoration: none;
+}
